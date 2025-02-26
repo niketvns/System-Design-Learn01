@@ -1,0 +1,103 @@
+export const initialData = [
+  {
+    id: "1",
+    username: "niketmishra",
+    comment: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ea sed voluptates! Et expedita in suscipit officia modi excepturi dignissimos praesentium impedit. Quae asperiores voluptatem cumque molestias nulla culpa numquam.`,
+    upvotes: 0,
+    downvotes: 0,
+    replies: [
+      {
+        id: "101",
+        username: "rajesh_mishra",
+        comment: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ea sed voluptates! Et expedita in suscipit officia modi excepturi dignissimos praesentium impedit. Quae asperiores voluptatem cumque molestias nulla culpa numquam.`,
+        upvotes: 0,
+        downvotes: 0,
+        replies: [
+          {
+            id: "1001",
+            username: "ashutosh_singh",
+            comment: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ea sed voluptates! Et expedita in suscipit officia modi excepturi dignissimos praesentium impedit. Quae asperiores voluptatem cumque molestias nulla culpa numquam.`,
+            replies: [],
+            upvotes: 0,
+            downvotes: 0,
+          },
+          {
+            id: "1002",
+            username: "usha gupta",
+            comment: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ea sed voluptates! Et expedita in suscipit officia modi excepturi dignissimos praesentium impedit. Quae asperiores voluptatem cumque molestias nulla culpa numquam.`,
+            upvotes: 0,
+            downvotes: 0,
+            replies: [
+              {
+                id: "10001",
+                username: "Babu Singh",
+                comment: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ea sed voluptates! Et expedita in suscipit officia modi excepturi dignissimos praesentium impedit. Quae asperiores voluptatem cumque molestias nulla culpa numquam.`,
+                replies: [],
+                upvotes: 0,
+                downvotes: 0,
+              },
+            ],
+          },
+          {
+            id: "1003",
+            username: "Rajan Madheshia",
+            comment: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ea sed voluptates! Et expedita in suscipit officia modi excepturi dignissimos praesentium impedit. Quae asperiores voluptatem cumque molestias nulla culpa numquam.`,
+            replies: [],
+            upvotes: 0,
+            downvotes: 0,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "2",
+    username: "rahul_rajan",
+    comment: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ea sed voluptates! Et expedita in suscipit officia modi excepturi dignissimos praesentium impedit. Quae asperiores voluptatem cumque molestias nulla culpa numquam.`,
+    upvotes: 0,
+    downvotes: 0,
+    replies: [],
+  },
+  {
+    id: "3",
+    username: "mominkalo",
+    comment: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ea sed voluptates! Et expedita in suscipit officia modi excepturi dignissimos praesentium impedit. Quae asperiores voluptatem cumque molestias nulla culpa numquam.`,
+    upvotes: 0,
+    downvotes: 0,
+    replies: [
+      {
+        id: "3001",
+        username: "ashutosh_singh",
+        comment: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ea sed voluptates! Et expedita in suscipit officia modi excepturi dignissimos praesentium impedit. Quae asperiores voluptatem cumque molestias nulla culpa numquam.`,
+        replies: [],
+        upvotes: 0,
+        downvotes: 0,
+      },
+      {
+        id: "3002",
+        username: "usha gupta",
+        comment: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ea sed voluptates! Et expedita in suscipit officia modi excepturi dignissimos praesentium impedit. Quae asperiores voluptatem cumque molestias nulla culpa numquam.`,
+        upvotes: 0,
+        downvotes: 0,
+        replies: [
+          {
+            id: "30001",
+            username: "Babu Singh",
+            comment: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ea sed voluptates! Et expedita in suscipit officia modi excepturi dignissimos praesentium impedit. Quae asperiores voluptatem cumque molestias nulla culpa numquam.`,
+            replies: [],
+            upvotes: 0,
+            downvotes: 0,
+          },
+        ],
+      },
+      {
+        id: "3003",
+        username: "Rajan Madheshia",
+        comment: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ea sed voluptates! Et expedita in suscipit officia modi excepturi dignissimos praesentium impedit. Quae asperiores voluptatem cumque molestias nulla culpa numquam.`,
+        replies: [],
+        upvotes: 0,
+        downvotes: 0,
+      },
+    ],
+  },
+];

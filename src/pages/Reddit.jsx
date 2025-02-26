@@ -1,3 +1,9 @@
+import RedditComments from "../components/nested-comments/Comments";
+
 export const RedditPage = () => {
-  return <div>Reddit</div>;
+  return (
+    <div>
+      <RedditComments />
+    </div>
+  );
 };
