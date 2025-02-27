@@ -1,5 +1,5 @@
 export * from "./Home";
-export * from "./Profile";
+export * from "./ComponentsPage";
 export * from "./Reddit";
 export * from "./About";
 export * from "./Accordion";

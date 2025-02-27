@@ -2,9 +2,9 @@ import { Route, Routes } from "react-router";
 import {
   AboutPage,
   AccordionPage,
+  ComponentsPage,
   HomePage,
   LoginPage,
-  ProfilePage,
   RedditPage,
 } from "./pages";
 import Header from "./components/Header";
@@ -18,7 +18,7 @@ function App() {
         <Routes>
           <Route index element={<HomePage />} />
           <Route element={<ProtectedRoute />}>
-            <Route path="profile" element={<ProfilePage />} />
+            <Route path="components" element={<ComponentsPage />} />
             <Route path="reddit" element={<RedditPage />} />
           </Route>
           <Route path="about" element={<AboutPage />} />

@@ -14,10 +14,10 @@ const Header = () => {
             Home
           </NavLink>
           <NavLink
-            to="/profile"
+            to="/components"
             className={({ isActive }) => (isActive ? "underline" : "")}
           >
-            Profile
+            Components
           </NavLink>
           <NavLink
             to="/reddit"
