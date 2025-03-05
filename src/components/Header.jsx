@@ -26,16 +26,16 @@ const Header = () => {
             Reddit
           </NavLink>
           <NavLink
-            to="/about"
+            to="/explorer"
             className={({ isActive }) => (isActive ? "underline" : "")}
           >
-            About
+            Explorer
           </NavLink>
           <NavLink
-            to="/accordion"
+            to="/games"
             className={({ isActive }) => (isActive ? "underline" : "")}
           >
-            Accordion
+            Games
           </NavLink>
         </nav>
       </div>

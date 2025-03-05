@@ -38,7 +38,6 @@ const CommentCard = ({
             <p className="ml-4 mt-2">{com.comment}</p>
           )}
         </div>
-
         <div className="flex items-center gap-1 mt-2">
           <button
             onClick={() => updateUpvoteCount(com.id)}

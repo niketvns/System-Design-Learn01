@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router";
 import {
-  AboutPage,
-  AccordionPage,
   ComponentsPage,
+  ExplorerPage,
+  GamePage,
   HomePage,
   LoginPage,
   RedditPage,
@@ -14,6 +14,7 @@ function App() {
   return (
     <div>
       <Header />
+
       <main className="my-2 px-6 min-h-[90vh]">
         <Routes>
           <Route index element={<HomePage />} />
@@ -21,8 +22,8 @@ function App() {
             <Route path="components" element={<ComponentsPage />} />
             <Route path="reddit" element={<RedditPage />} />
           </Route>
-          <Route path="about" element={<AboutPage />} />
-          <Route path="accordion" element={<AccordionPage />} />
+          <Route path="explorer" element={<ExplorerPage />} />
+          <Route path="games" element={<GamePage />} />
           <Route path="login" element={<LoginPage />} />
         </Routes>
       </main>
