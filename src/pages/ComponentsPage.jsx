@@ -5,6 +5,7 @@ import { useGlobalState } from "../contexts/AppContext";
 import { useDebounce } from "../hooks/useDebounce";
 import Counter from "../components/Counter";
 import { Accordion } from "../components/Accordion";
+import CheckboxMCR from "../components/CheckboxMCR";
 
 const MAX_VISIBLE_PAGES = 5;
 
@@ -29,6 +30,12 @@ export const ComponentsPage = () => {
 
   return (
     <div className="flex flex-col gap-5">
+      <section className="py-2 flex flex-col gap-4">
+        <h1 className="text-3xl font-semibold text-blue-600">
+          Checkbox Problem
+        </h1>
+        <CheckboxMCR />
+      </section>
       <section className="py-2 flex flex-col gap-4">
         <h1 className="text-3xl font-semibold text-blue-600">Counter</h1>
         <Counter />
